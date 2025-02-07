@@ -32,6 +32,6 @@ for (const entry of sales) {
     console.log(entry);
 }*/
 
-sales.forEach((value,map) => {
+sales.forEach((value,key) => {
     console.log(` ${value}: ${map}`);
 })
