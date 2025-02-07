@@ -13,7 +13,7 @@ Examples: (Input --> Output)
 * */
 
 var number=function(array){
-    if(array.length === 0){
+/*    if(array.length === 0){
         return [];
     }else {
         let number = 0;
@@ -23,7 +23,9 @@ var number=function(array){
             number++;
         })
         return arr2;
-    }
+    }*/
+    let number = 0;
+    return array.map(num => `${number + 1}: ${num}`);
 }
 
 console.log(number(['a','b','c','d']));
