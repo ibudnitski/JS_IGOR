@@ -16,5 +16,6 @@ function towerBuilder(nFloors) {
     return tower;
 }
 
-console.log(towerBuilder(6));
+// console.log(towerBuilder(6));
+console.log(towerBuilder(55));
 
